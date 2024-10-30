@@ -1,10 +1,43 @@
 body {
-    background: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding: 50px;
-    color: #fff;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: changes 60s ease-in-out infinite;
+    background: linear-gradient(90deg, #fcc9ba, #dd83ad, #c3e1fc, #e85c90, #1ed7b5);
+    background-size: 300% 300%; /* Adjusted for proper animation */
+}
+
+@keyframes changes {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 100% 0%; /* Changed to 100% for a smoother transition */
+    }
+    50% {
+        background-position: 100% 100%; /* Changed to 100% for a smoother transition */
+    }
+    75% {
+        background-position: 0% 100%; /* Changed to 0% for a smoother transition */
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+  
+
+
+  h1 {
+    color: white;
+    font-family: Arial, sans-serif;
   }
+
+
+
   
   .container {
     background: rgba(255, 255, 255, 0.8);
@@ -13,8 +46,8 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     max-width: 600px;
     border-radius: 15px;
-    border: 2px solid #6a1b9a;
-  }
+    border: 2px solid #6a1b9a; 
+  } 
   
   h1 {
     font-size: 60px;
@@ -47,4 +80,3 @@ body {
     margin-top: 20px;
     border-radius: 10px;
   }
-  
