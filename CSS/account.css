@@ -12,7 +12,7 @@ body {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-image: linear-gradient(to top right, #6bf074, #6be9f0);
+    background-image: linear-gradient(to top right, #00d4ff, #090979);
 }
 
 #login-form, #logout-form {
@@ -28,7 +28,7 @@ input[type="text"], input[type="password"] {
 
 button {
     padding: 10px 20px;
-    background-color: #2ef33b;
+    background-color: #89CFF0;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 3px;
